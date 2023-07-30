@@ -1,0 +1,27 @@
+.login_container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+
+    .login_form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+        border-radius: 5px;
+        padding: 35px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        gap: 10px;
+
+        .login_button button {
+            width: 100%;
+        }
+    }
+    
+    .login_form label { 
+        display: flex;
+    }
+}
